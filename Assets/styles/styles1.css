@@ -1,0 +1,188 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.orange {
+  color: rgb(255, 156, 51);
+}
+
+nav {
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-anchors {
+  width: 400px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-icon {
+  width: 200px;
+}
+
+/* NAV */
+
+.primercontenedorindex {
+  height: 300px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.primerimagenindex {
+  background-image: url("/Assets/images/image-1.jpg");
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width: 600px;
+  display: flex;
+}
+
+.segundocontenedorindex {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 200px;
+  justify-content: center;
+  align-content: center;
+}
+
+.segundaimagenindex {
+  background-image: url("/Assets/images/image-2.jpg");
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width: 400px;
+  display: flex;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+
+.title {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imagen-principal-index {
+  display: flex;
+  justify-content: center;
+}
+
+#imagen-principal-index-estilo {
+  width: 900px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.section-index {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#imagen-section {
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.articulos-aboutus {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#imagenesaboutus {
+  width: 260px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Inicio de  schedule  */
+
+.scheduletabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+  height: 300px;
+  width: 350px;
+}
+
+th {
+  border: 1px solid rgb(255, 156, 51);
+}
+
+td {
+  border: 1px solid black;
+}
+
+/* Inicio de benefits  */
+
+.articulo-benefitsandtips {
+  display: flex;
+  height: 230px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#benefitsandtipsimg {
+  height: 200px;
+  width: 300px;
+}
+
+/* Contact us*/
+.contenedorcontact {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imagen-principal-contactus {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#imagencontact {
+  width: 730px;
+  height: 450px;
+  object-fit: cover;
+}
+
+#contactuspcenter {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.cajadecontactos {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
